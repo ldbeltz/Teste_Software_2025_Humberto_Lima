@@ -2,7 +2,7 @@ import unittest
 from metodos.metodos import format_file_size, soma
 
 
-class teste_SomaNumeros(unittest.TestCase):
+class test_metodos(unittest.TestCase):
 
     def test_format_file_size(self):
         # 1. Testa o valor zero. É o caso mais básico.
