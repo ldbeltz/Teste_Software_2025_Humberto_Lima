@@ -8,7 +8,7 @@ class TestFormatFileSize(unittest.TestCase):
 
 class SomaNumeros(unittest.TestCase):
     def test_soma_dois_e_dois_eh_quatro(self):
-        self.assertEqual(soma(2,2), 3)
+        self.assertEqual(soma(2,2), 4)
 
 if __name__ == "__main__":
     unittest.main()
